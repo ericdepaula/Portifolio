@@ -1,0 +1,42 @@
+header {
+  background-color: #222;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* configuração/Animação do meu nome */
+header h1:not(:hover) {
+  font-size: 2.4em;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+header h1:hover {
+  font-size: 2.5em;
+  font-weight: 250;
+  cursor: pointer;
+  color: #b3afaf;
+  transition: 0.5s ease-in-out;
+}
+/* ajustes para deixar a nav mais alinhada */
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+/* configuração/animação dos Icons */
+header nav a:not(:hover) {
+  margin-right: 0.3em;
+  font-size: 2em;
+  font-weight: 200;
+  transition: 0.4s ease-in-out;
+}
+header nav a:hover {
+  margin-right: 0.3em;
+  font-size: 2.4em;
+  font-weight: 250;
+  color: #b3afaf;
+  transition: 0.4s ease-in-out;
+}
